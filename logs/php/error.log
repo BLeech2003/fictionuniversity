@@ -1,0 +1,1 @@
+[29-Nov-2024 07:30:23 UTC] Cron unschedule event error for hook: do_pings, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}

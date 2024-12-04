@@ -62,7 +62,7 @@ while (have_posts()) {
             </div>
         </div>
     <?php } ?>
-
+    <!-- 
     <div class="page-section page-section--beige">
         <div class="container container--narrow generic-content">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates vero vel temporibus aliquid
@@ -125,7 +125,7 @@ while (have_posts()) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <?php
 }
 get_footer();

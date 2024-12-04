@@ -21,7 +21,11 @@ add_action("wp_enqueue_scripts", "fictional_uni_files"); //first arg is instruct
 //update the title
 function uni_features()
 {
-add_theme_support("title-tag");
+    // register_nav_menu("headerMenuLocation", "Header Menu Location");
+    // register_nav_menu("footerLocation1", "Footer location 1");
+    // register_nav_menu("footerLocation2", "Footer location 2");
+
+    add_theme_support("title-tag");
 }
 
 add_action("after_setup_theme", "uni_features");

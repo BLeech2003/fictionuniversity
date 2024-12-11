@@ -29,11 +29,11 @@
                         </li>
                         <!-- <li <?php if (is_page("about-us"))
                             echo 'class="current-menu-item"' ?>><a
-                                    href="<?php echo site_url("/about-us") ?>">Programs</a></li>
-                        <li <?php if (is_page("about-us"))
+                                    href="<?php echo site_url("/about-us") ?>">Programs</a></li> -->
+                        <li <?php if (get_post_type() == "event")
                             echo 'class="current-menu-item"' ?>><a
-                                    href="<?php echo site_url("/about-us") ?>">Events</a></li>
-                        <li <?php if (is_page("about-us"))
+                                    href="<?php echo site_url("/events") ?>">Events</a></li>
+                        <!-- <li <?php if (is_page("about-us"))
                             echo 'class="current-menu-item"' ?>><a
                                     href="<?php echo site_url("/about-us") ?>">Campuses</a></li> -->
                         <li <?php if (get_post_type() == "post")

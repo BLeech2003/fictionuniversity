@@ -1,2 +1,5 @@
 logs/
+app/public/wp-content/plugins/
+uploads/
 
+/uploads

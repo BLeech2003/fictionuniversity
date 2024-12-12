@@ -1,1 +1,32 @@
 [29-Nov-2024 07:30:23 UTC] Cron unschedule event error for hook: do_pings, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
+[12-Dec-2024 07:58:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Query::set(), 1 passed in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-content\themes\fiction-uni-theme\functions.php on line 37 and exactly 2 expected in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php:1849
+Stack trace:
+#0 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-content\themes\fiction-uni-theme\functions.php(37): WP_Query->set(Array)
+#1 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-hook.php(324): university_adjust_queries(Object(WP_Query))
+#2 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#5 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#6 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#7 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp.php(816): WP->query_posts()
+#8 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\functions.php(1336): WP->main('')
+#9 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-blog-header.php(16): wp()
+#10 C:\Users\bianc\Local Sites\fictionuniversity\app\public\index.php(17): require('C:\\Users\\bianc\\...')
+#11 {main}
+  thrown in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php on line 1849
+[12-Dec-2024 08:00:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Query::set(), 0 passed in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-content\themes\fiction-uni-theme\functions.php on line 40 and exactly 2 expected in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php:1849
+Stack trace:
+#0 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-content\themes\fiction-uni-theme\functions.php(40): WP_Query->set()
+#1 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-hook.php(324): university_adjust_queries(Object(WP_Query))
+#2 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#5 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php(3852): WP_Query->get_posts()
+#6 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#7 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp.php(816): WP->query_posts()
+#8 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\functions.php(1336): WP->main('')
+#9 C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-blog-header.php(16): wp()
+#10 C:\Users\bianc\Local Sites\fictionuniversity\app\public\index.php(17): require('C:\\Users\\bianc\\...')
+#11 {main}
+  thrown in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-includes\class-wp-query.php on line 1849
+[12-Dec-2024 09:01:11 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\bianc\Local Sites\fictionuniversity\app\public\wp-content\themes\fiction-uni-theme\single-event.php on line 40

@@ -26,6 +26,9 @@ function uni_features()
     // register_nav_menu("footerLocation2", "Footer location 2");
 
     add_theme_support("title-tag");
+    add_theme_support("post-thumbnails");
+    add_image_size("professor_landscape", 400, 260, true);
+    add_image_size("professor_portrait", 480, 650, true);
 }
 
 add_action("after_setup_theme", "uni_features");
